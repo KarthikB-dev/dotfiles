@@ -56,3 +56,4 @@
 (package! all-the-icons)
 (package! neotree)
 (package! org-superstar)
+(package! pdf-tools)
