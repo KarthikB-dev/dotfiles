@@ -106,3 +106,9 @@
   '(org-level-4 :height 1.2)
   '(org-level-5 :height 1.1)
   '(org-level-6 :height 1.0))
+
+;; Make neotree resizable
+(after! neotree (setq neo-window-fixed-size nil))
+
+;; Use pdf tools
+(use-package! pdf-tools)
