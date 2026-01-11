@@ -130,11 +130,6 @@ alias ga='git add'
 alias gcm='git commit -m'
 alias gacm='git add . ; git commit -m'
 alias gd='git diff'
-alias cs190="ssh -i ~/.ssh/id_ed25519 kbhattaram@snl-server-5.cs.ucsb.edu"
-# alias jtunnel="ssh -L 8888:127.0.0.1:10124 -i ~/.ssh/id_ed25519 kbhattaram@snl-server-5.cs.ucsb.edu"
-alias zone="find ~/UCSB/ -iname "*zone*identifier" -exec rm {} \;"
-alias w25="cd /home/karthik-xps/UCSB/W25"
-alias pj04="cd /home/karthik-xps/UCSB/W25/CS_148/pj04-restaurantdecider"
 alias csil="ssh kbhattaram@csil-01.cs.ucsb.edu"
 alias vb='vim ~/.bashrc'
 alias sb='source ~/.bashrc'
@@ -144,28 +139,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# nvm use 23 - bad
-# nvm use 20.18.1 - bad
-# nvm use 20.18.1 - bad
-# Correct version
-# nvm use 23
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="~/.config/emacs/bin:$PATH"
-
-# relic from CS 176C
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/home/karthik-xps/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#   eval "$__conda_setup"
-# else
-#   if [ -f "/home/karthik-xps/miniconda3/etc/profile.d/conda.sh" ]; then
-#       . "/home/karthik-xps/miniconda3/etc/profile.d/conda.sh"
-#   else
-#       export PATH="/home/karthik-xps/miniconda3/bin:$PATH"
-#   fi
-# fi
-# unset __conda_setup
-#<<< conda initialize <<<
 
