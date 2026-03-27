@@ -112,3 +112,18 @@
 
 ;; Use pdf tools
 (use-package! pdf-tools)
+
+;; Use dvipng for latex
+(setq org-preview-latex-default-process 'dvipng)
+
+;; Adjust latex size (make previews larger)
+(after! org (setq org-format-latex-options (plist-put org-format-latex-options :scale 2.7)))
+
+;; Help emacs find the path to latex
+(setenv "PATH" (concat (getenv "PATH") ":/usr/bin"))
+(setq exec-path (append exec-path '("/usr/bin")))
+
+;; Status
+;; (use-package! display-time)
+;; (use-package! display-battery-mode)
+
