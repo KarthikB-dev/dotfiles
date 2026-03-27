@@ -123,7 +123,6 @@
 (setenv "PATH" (concat (getenv "PATH") ":/usr/bin"))
 (setq exec-path (append exec-path '("/usr/bin")))
 
-;; Status
-;; (use-package! display-time)
-;; (use-package! display-battery-mode)
-
+;; Battery and current time
+(display-time-mode 1)
+(display-battery-mode 1)
