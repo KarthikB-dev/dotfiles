@@ -142,3 +142,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="~/.config/emacs/bin:$PATH"
 
+# For claude code
+export PATH="$HOME/.local/bin:$PATH"
