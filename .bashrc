@@ -144,3 +144,7 @@ export PATH="~/.config/emacs/bin:$PATH"
 
 # For claude code
 export PATH="$HOME/.local/bin:$PATH"
+
+# Move to my course directories
+alias 279='cd ~/UCSB/F26/CS_279'
+alias 254='cd ~/UCSB/F26/CS_254'
