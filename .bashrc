@@ -121,9 +121,8 @@ export PATH=/usr/local/cuda-12.1/bin${PATH:+:${PATH}}
 # Add binary directory in home to PATH
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/bin
-# Go to CUDA directory
-# cd ~/coding/GPU_Programming
-# alias mp1="cd ~/UCSB/CS_165A/MP1"
+
+# Time saving aliases
 alias gp='git push'
 alias gs='git status'
 alias ga='git add'
@@ -148,3 +147,4 @@ export PATH="$HOME/.local/bin:$PATH"
 # Move to my course directories
 alias 279='cd ~/UCSB/F26/CS_279'
 alias 254='cd ~/UCSB/F26/CS_254'
+
