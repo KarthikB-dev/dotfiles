@@ -148,3 +148,7 @@ export PATH="$HOME/.local/bin:$PATH"
 alias 279='cd ~/UCSB/F26/CS_279'
 alias 254='cd ~/UCSB/F26/CS_254'
 
+# Jekyll site builder
+export GEM_HOME="$HOME/.local/share/gem/ruby/default"
+export PATH="$GEM_HOME/bin:$PATH"
+
