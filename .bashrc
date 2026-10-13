@@ -152,3 +152,6 @@ alias 254='cd ~/UCSB/F26/CS_254'
 export GEM_HOME="$HOME/.local/share/gem/ruby/default"
 export PATH="$GEM_HOME/bin:$PATH"
 
+# Keep SSH sessions alive
+alias keepalive='systemd-inhibit --what=sleep:idle:handle-lid-switch --who="ssh" --why="keep condon session alive" sleep infinity'
+
